@@ -12,7 +12,7 @@ N = length(duration); % Number of samples
 Fabs=abs(fft(wave2));
 Fshift = fftshift(Fabs);
 
-n = -[-N/2:N/2-1]*(ft/2); %ask anyone to explain this for you
+n = -[-N/2:N/2-1]*(ft/2);
  
 plot(n,2*Fshift/N,'LineWidth',2);
 grid on
