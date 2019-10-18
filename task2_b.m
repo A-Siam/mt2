@@ -47,13 +47,13 @@ end
 endfunction
 
 printf("for signals (b):\n");
-x = [1,1,-1,-1]; %unit step function
-y = [1,-1,1,-1]; %square function
+x = [1,1,-1,-1]; 
+y = [1,-1,1,-1]; 
  
 solveIfEnegyOfXPlusYEqualsEnergyOfXMinusY(x,y,0,2*pi,pi/2);
 
 printf("for signals (c):\n");
-x = [1,-1,-1,-1]; %unit step function
-y = [1,1,1,1]; %square function
+x = [1,-1,-1,-1];
+y = [1,1,1,1];
  
 solveIfEnegyOfXPlusYEqualsEnergyOfXMinusY(x,y,0,pi,pi/4);
