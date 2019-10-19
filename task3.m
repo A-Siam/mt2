@@ -21,7 +21,7 @@ function result = generate_sawtooth(A,T,time,n_ending)
   result = A* result
 endfunction
 
-
+% example:
 x = -4:0.01:4;
 r = generate_sawtooth(2,2,x,100);
 plot(x,r);
